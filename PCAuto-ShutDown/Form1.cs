@@ -45,10 +45,6 @@ namespace PCAuto_ShutDown
             {
                 h_label.Text = "00";
             }
-            if (h_label.Text.Length < 2)
-            {
-                h_label.Text = '0' + h_label.Text;
-            }
         }
 
         private void hs_button_Click(object sender, EventArgs e)
@@ -57,10 +53,6 @@ namespace PCAuto_ShutDown
             if (Convert.ToInt32(h_label.Text) == -1)
             {
                 h_label.Text = "23";
-            }
-            if (h_label.Text.Length < 2)
-            {
-                h_label.Text = '0' + h_label.Text;
             }
         }
 
@@ -71,10 +63,6 @@ namespace PCAuto_ShutDown
             {
                 m_label.Text = "00";
             }
-            if (m_label.Text.Length < 2)
-            {
-                m_label.Text = '0' + m_label.Text;
-            }
         }
 
         private void ms_button_Click(object sender, EventArgs e)
@@ -83,10 +71,6 @@ namespace PCAuto_ShutDown
             if (Convert.ToInt32(m_label.Text) == -5)
             {
                 m_label.Text = "55";
-            }
-            if (m_label.Text.Length < 2)
-            {
-                m_label.Text = '0' + m_label.Text;
             }
         }
 
