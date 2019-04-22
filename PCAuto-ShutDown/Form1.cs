@@ -163,7 +163,6 @@ namespace PCAuto_ShutDown
                     distime_timer.Enabled = false;
                     if (msbCheckBox.Checked)
                     {
-                        newMsg.Location = new Point(this.Location.X + this.Width / 2 - newMsg.Width / 2, this.Location.Y + this.Height / 2 - newMsg.Height / 2);
                         newMsg.ShowDialog();
                         DialogResult dr = newMsg.dialogResult;
                         if (dr == DialogResult.OK)
